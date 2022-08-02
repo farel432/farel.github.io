@@ -10,7 +10,7 @@
   .container {
     max-width: 500px;
     margin: 0 auto;
-    background: red;
+    background: rgb(0, 0, 0);
     height: 100vh;
     background-image: url("https://images.unsplash.com/photo-1607799131608-9a22dd60e25e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
     background-position: center;
@@ -74,4 +74,14 @@
   .footer>i {
     color: white;
     font-size: 20px;
+  }
+
+  .fcc-btn {
+    background-color: #222b74;
+    color: white;
+    padding: 10px 20px;
+    text-decoration:none;
+  }
+  .fcc-btn:hover {
+    background-color: #ffffff;
   }
